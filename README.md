@@ -13,9 +13,9 @@ In that case, the larger segment is extended to form a new segment terminating i
 
 The program is controlled by AddBdySegs.dat, which has the following sample structure:
  
-50. boundary_width, only create new boundary segments within this distance of the domain boundary  
+50 boundary_width, only create new boundary segments within this distance of the domain boundary  
 1.5 diam_ratio, only create new boundary sgments if diameter ratio is greater than this  
-15. diam0, create list of boundary segments with diameters above this  
+15 diam0, create list of boundary segments with diameters above this  
 100	max_n, maximum number of new boundary segments to add  
 2  number of nodes at which to add segments - list node names below  
 317  
